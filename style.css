@@ -1,0 +1,141 @@
+body{
+    min-width: 450px;
+}
+h1{
+    font-size: 64px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.0rem;
+    letter-spacing: 1px;
+}
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+}
+h2{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* margin: 10px 0; */
+    font-weight: bold;
+    width: 150px;
+    align-items: center;
+}
+li:hover {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+a:visited{
+    color: #A4c639;
+}
+a:hover{
+    background-color: aquamarine;
+}
+
+.container{
+    flex: 1;
+}
+.title{
+    width: '100%';
+    text-align: center;
+}
+.paragraph{
+    text-align: center;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tableDiv{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+}
+.subtitle{
+    margin-left: 30px;
+}
+.paragraphSubtitle{
+    margin-left: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list{
+    margin-left: 40px;
+}
+.list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    padding: 0;
+} 
+.list li {
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+} 
+.list li::before {
+    content: "\2022";
+    color: #666;
+    margin-right: 10px;
+}
+  
+.list li:hover {
+    background-color: #f2f2f2;
+}
+
+.list li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .list li i {
+    margin-right: 10px;
+  }
+.image{
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+}
+.codeImageContainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-content: center;
+    margin: 20px;
+    min-width: 500px;
+}
