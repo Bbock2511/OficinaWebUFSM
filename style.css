@@ -1,5 +1,7 @@
-body{
-    min-width: 450px;
+@media (max-width: 600px) {
+    body{
+        min-width: 450px;
+    }
 }
 h1{
     font-size: 64px;
